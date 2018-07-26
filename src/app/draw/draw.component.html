@@ -1,0 +1,26 @@
+<div class="container" id="conta">
+    <div class="button1-style ">
+        <button 
+        class="btn btn-primary"
+        (click)="fileInput.click()">View File</button>&nbsp;
+   <!-- <button class="btn btn-primary" (click)="draw()">Draw</button>&nbsp; -->
+
+        <button class="btn btn-primary" (click)="print12()">Print</button>
+        </div>
+  <div id="map">
+    <pdf-viewer 
+    [src]="pdfSrc" 
+    [render-text]="true" 
+    [fit-to-page]="true" 
+    [stick-to-page]="true" 
+    [original-size]="false" 
+    id="pdf">
+    </pdf-viewer>
+  </div>
+  </div>
+  
+  <input style="display: none;" 
+  (change)="onFileSelected()" 
+  type="file" 
+  id="file" 
+  #fileInput>

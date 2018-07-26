@@ -1,0 +1,36 @@
+/* 
+.container {
+    border: 1px solid rgb(24, 23, 23);
+    top : 50px;
+    left : 50px;
+    right : 50px;
+    height: 10000px;
+} */
+
+#conta {
+    top : 0px;
+}
+
+
+ #pdf {
+    border: 1px solid rgb(24, 23, 23);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 1;
+}
+#map {
+    position: relative;
+    /* top :0px;
+    right :0px;
+    left : 0px; */
+    height: 10000px;
+}
+.button1-style {
+   position: relative;
+    text-align: center;
+    top:40px;
+    z-index: 2;
+}
